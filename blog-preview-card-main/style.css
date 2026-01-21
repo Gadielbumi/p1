@@ -36,6 +36,13 @@ main button{
     position:relative;
     top: 10px;
 }
+main button:active{
+    height: 26px;
+    width: 73px;
+    background-color:#fd7e14;
+    color:#ffff;
+    animation-duration: 4s;
+}
 main .published{
   font-size: smaller;
   font-family: "Figtree", sans-serif;
@@ -75,9 +82,9 @@ main h1:hover{
 }
 #creator a {
     text-decoration: none;
-    color: aqua;
+    color:#00bfff;
 }
-#creator a:hover{
+#creator a span:hover{
     text-decoration:underline;
 }
 #creator a span{
