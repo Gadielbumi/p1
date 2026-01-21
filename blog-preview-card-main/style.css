@@ -1,3 +1,6 @@
+:root{
+
+}
 body{
     background-color:#ffb90f;
 }
@@ -9,7 +12,89 @@ main{
     box-shadow: 7px 10px 5px;
     border: 1px solid black;
 
-    position: center;
-    padding: 18px;
+    position: absolute;
+    top:5em;
+    left: 33em;
+    padding:15px;
+}
+#img img{
+    height: 150px;
+    width: 275px;
+    border-radius:10px;
+    position:relative;
+    left :-2px;
+}
+main button{
+    font-weight: 530;
+    height: 30px;
+    width: 75px;
+    background-color: #f2b017;
+    border-radius: 5px;
+    border: none;
+    color: rgba(0, 0, 0, 0.797);
 
+    position:relative;
+    top: 10px;
+}
+main button:active{
+    height: 26px;
+    width: 73px;
+    background-color:#fd7e14;
+    color:#ffff;
+    animation-duration: 4s;
+}
+main .published{
+  font-size: smaller;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  position: relative;
+  top:4px;
+}
+main h1{
+  font-size:larger;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+main .commentaire{
+  font-size:medium;
+  font-weight:400;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  opacity: 0.6;
+}
+main h1:hover{
+    color:#f2b017;
+    animation: 1s;
+}
+#creator{
+    position: relative;
+}
+#creator .profile{
+    height:35px;
+    width: 35px;
+    border-radius: 100%;
+    position:absolute;
+    top:15px; 
+    left: 5px;
+}
+#creator a {
+    text-decoration: none;
+    color:#00bfff;
+}
+#creator a span:hover{
+    text-decoration:underline;
+}
+#creator a span{
+   font-size:medium;
+  font-weight:400;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  opacity: 0.9; 
+  position :absolute;
+  left:45px;
+  top:25px;
 }
