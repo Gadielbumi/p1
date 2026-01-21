@@ -1,0 +1,15 @@
+body{
+    background-color:#ffb90f;
+}
+main{
+    width: 270px;
+    height: 400px;
+    background-color:#ffff;
+    border-radius: 15px;
+    box-shadow: 7px 10px 5px;
+    border: 1px solid black;
+
+    position: center;
+    padding: 18px;
+
+}
