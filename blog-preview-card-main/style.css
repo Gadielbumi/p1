@@ -1,3 +1,6 @@
+:root{
+
+}
 body{
     background-color:#ffb90f;
 }
@@ -31,4 +34,26 @@ main button{
 
     position:relative;
     top: 10px;
+}
+main .published{
+  font-size: smaller;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  position: relative;
+  top:4px;
+}
+main h1{
+  font-size:larger;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+main .commentaire{
+  font-size:medium;
+  font-weight:400;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  opacity: 0.6;
 }
